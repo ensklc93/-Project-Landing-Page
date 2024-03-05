@@ -15,7 +15,7 @@ body {
     align-items: center;
     justify-content: space-between;
     background-color: #1f2937;
-    padding: 20px 186px 80px 186px;
+    padding: 20px 186px 80px 166px;
     gap: 16px;
 }
 
@@ -34,7 +34,7 @@ a {
 .hero {
     display: flex;
     background-color: #1f2937;
-    padding: 16px 186px 186px 186px;
+    padding: 16px 186px 186px 166px;
     justify-content: space-between;
     gap: 32px
 }
@@ -103,7 +103,7 @@ h1 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 128px 218px;
+    padding: 128px 240px;
     gap: 2em;   
 }
 
@@ -116,4 +116,60 @@ h1 {
 
 #author {
     align-self: flex-end;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    padding: 62px 98px;
+    margin: 100px 210px;
+    border-radius: 15px;
+}
+
+.store {
+    display: flex;
+    flex-direction: column;
+}
+
+#storeone {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+#storetwo {
+    color: #f9faf8;
+}
+
+button {
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    font-size: 16px;
+    color: #f9faf8;
+    font-weight: bold;
+
+}
+
+.leftmain button {
+    margin-top: 6px;
+    border-style: none;
+}
+
+.box button {
+    border-color: white;
+    border-style: solid;    
+}
+
+footer {
+    background-color: #1f2937;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: white;
 }
