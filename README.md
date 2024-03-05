@@ -1,4 +1,4 @@
-# -Project-Landing-Page
+# Project-Landing-Page
  TOP Project: Landing Page
 
 This is the second project from "The Odin Project" 
